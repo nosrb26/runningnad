@@ -1,8 +1,8 @@
 {
   "name": "RunningNad",
-  "url": "https://localhost:3000/game",
-  "icon": "https://localhost:3000/favicon.ico",
-  "description": "Mini Monad TRex Runner for Farcaster!",
+  "url": "https://runningnad.vercel.app/game",
+  "icon": "https://runningnad.vercel.app/favicon.ico",
+  "description": "Mini Monad T‑Rex Runner for Farcaster!",
   "author": "@0xramzan",
   "frame": {
     "type": "onchainkit",
