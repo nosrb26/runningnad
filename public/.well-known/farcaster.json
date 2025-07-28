@@ -4,12 +4,15 @@
     "version": "1",
     "iconUrl": "https://runningnad.vercel.app/favicon.ico",
     "homeUrl": "https://runningnad.vercel.app",
-    "imageUrl": "https://runningnad.vercel.app/image.png",
     "splashImageUrl": "https://runningnad.vercel.app/splash.png",
     "splashBackgroundColor": "#200052",
-    "webhookUrl": "https://runningnad.vercel.app/api/webhook",
     "subtitle": "Run, jump & share your score",
     "description": "Mini Monad T‑Rex Runner for Farcaster!",
     "primaryCategory": "games"
+  },
+  "accountAssociation": {
+    "header": "eyJmaWQiOjk5NTM3OSwidHlwZSI6ImN1c3RvZHkiLCJrZXkiOiIweDVDMTFBY0ZjMzFBNDRFZTY2QzBBMzgxNGEyN0Q0Mzk1Q2M0QzlGMGIifQ",
+    "payload": "eyJkb21haW4iOiJydW5uaW5nbmFkLnZlcmNlbC5hcHAifQ",
+    "signature": "MHg1ZTFlNzQ4ZDYzOTRkMDYxNGRkMDg5ZDg3NWIwNDE0ZjY4M2RlZDhlNjc4NWQyNGIxZDRkMmY3MTBmYTg4Njk4MjQ1MzIzZWJjN2JmMTI4ZGI4ZGUwMDI1MTExYTQwNDY2ZGYzYTg3NDQ2YWI4YzYyM2Y1MDU3MWQzYzNhNGJmOTFj"
   }
 }
