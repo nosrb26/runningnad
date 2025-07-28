@@ -1,0 +1,11 @@
+{
+  "name": "RunningNad",
+  "url": "https://localhost:3000/game",
+  "icon": "https://localhost:3000/favicon.ico",
+  "description": "Mini Monad TRex Runner for Farcaster!",
+  "author": "@0xramzan",
+  "frame": {
+    "type": "onchainkit",
+    "entrypoint": "/api/frame"
+  }
+}
