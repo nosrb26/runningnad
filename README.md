@@ -1,7 +1,8 @@
-RunningNad – Farcaster Miniapp (Frame)
+# RunningNad – Farcaster Miniapp (Frame)
 
-A tiny Farcaster miniapp you can open directly in Warpcast as a Frame, and on the web as a classic page.
-🎮 Live demo: https://runningnad.vercel.app/game
+# A tiny Farcaster miniapp you can open directly in Warpcast as a Frame, and on the web as a classic page.
+
+🎮👉 **Live Demo** : [runningnad.vercel.app/game](https://runningnad.vercel.app/game/)
 
 ✨ Features
 
