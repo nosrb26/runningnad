@@ -85,17 +85,3 @@ Make sure your Frame URL is publicly reachable over HTTPS.
 Open the web app at /game or open the cast in Warpcast to load the Frame.
 Use on-screen or keyboard controls to dodge obstacles and survive as long as possible.
 At the end, click Share/Replay to post your score link back to Farcaster (or simply restart on web).
-
-# 🔗 Frame Endpoints (example)
-
-Adjust to your actual routes; these are conventional names.
-
-GET /frames – root of the frame (OG image + primary CTA).
-POST /frames/next – handles button presses and game steps.
-GET /frames/og – dynamic OG image for sharing scores.
-
-# 🧪 Development Notes
-
-Keep the frame response time low (<1s) to stay snappy in Warpcast.
-Provide fallback images and alt text; frames must render even if JS is disabled.
-Test both mobile and desktop inside Warpcast & web.
