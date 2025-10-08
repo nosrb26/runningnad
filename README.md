@@ -26,13 +26,9 @@ Framework: Next.js (React)
 
 Hosting: Vercel
 
-Farcaster: Frames-compatible endpoint (e.g. frames.js / frog)
-
-Styling/UX: Tailwind / Framer Motion (optional)
+Farcaster: frames.js
 
 State/Logic: Lightweight game loop in React
-
-If you use a specific Frames library (e.g. frog, frames.js) or the Neynar API, list it here explicitly.
 
 # 📦 Repo Structure
 
