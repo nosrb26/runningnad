@@ -61,9 +61,7 @@ npm i
 # or pnpm i / yarn
 ```
 
-Environment:
-
-Create .env.local (only what you actually use):
+Environment (create .env.local (only what you actually use)) :
 
 ```bash
 NEXT_PUBLIC_BASE_URL=http://localhost:3000
