@@ -4,7 +4,7 @@
 
 🎮👉 **Live Demo** : [runningnad.vercel.app/game](https://runningnad.vercel.app/game/)
 
-✨ Features
+# ✨ Features
 
 Farcaster Frame: playable inside Warpcast (in-feed) with CTA buttons.
 
@@ -20,7 +20,7 @@ Deploy-ready: Vercel one-click deploy; environment-based config.
 
 No smart-contract yet. If you later add on-chain scores or badges, this README already has placeholders (see “On-chain (optional)”).
 
-🧱 Tech Stack
+# 🧱 Tech Stack
 
 Framework: Next.js (React)
 
@@ -34,7 +34,7 @@ State/Logic: Lightweight game loop in React
 
 If you use a specific Frames library (e.g. frog, frames.js) or the Neynar API, list it here explicitly.
 
-📦 Repo Structure
+# 📦 Repo Structure
 
 ```bash
 /app
@@ -45,7 +45,7 @@ If you use a specific Frames library (e.g. frog, frames.js) or the Neynar API, l
 /lib                 # Game helpers, types, utils
 ```
 
-🔧 Local Setup
+# 🔧 Local Setup
 
 Clone the repository:
 
@@ -81,13 +81,27 @@ npm run dev
 App: http://localhost:3000/game
 Frame endpoint (example): http://localhost:3000/frames
 
-🚀 Deploy
+# 🚀 Deploy
 
 Vercel: connect the repo -> set the same env vars in the Vercel dashboard -> Deploy
 Make sure your Frame URL is publicly reachable over HTTPS.
 
-🕹️ How to Play
+# 🕹️ How to Play
 
 Open the web app at /game or open the cast in Warpcast to load the Frame.
 Use on-screen or keyboard controls to dodge obstacles and survive as long as possible.
 At the end, click Share/Replay to post your score link back to Farcaster (or simply restart on web).
+
+# 🔗 Frame Endpoints (example)
+
+Adjust to your actual routes; these are conventional names.
+
+GET /frames – root of the frame (OG image + primary CTA).
+POST /frames/next – handles button presses and game steps.
+GET /frames/og – dynamic OG image for sharing scores.
+
+# 🧪 Development Notes
+
+Keep the frame response time low (<1s) to stay snappy in Warpcast.
+Provide fallback images and alt text; frames must render even if JS is disabled.
+Test both mobile and desktop inside Warpcast & web.
