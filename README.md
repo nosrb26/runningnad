@@ -34,14 +34,60 @@ State/Logic: Lightweight game loop in React
 
 If you use a specific Frames library (e.g. frog, frames.js) or the Neynar API, list it here explicitly.
 
-📦 Repo Structure (suggested)
+📦 Repo Structure
 
+```bash
 /app
   /game              # Web game route (Next.js page or app route)
   /frames            # Frame handler(s) for Warpcast
 /public              # Static sprites, icons, OG images
 /components          # UI components (Buttons, HUD, etc.)
 /lib                 # Game helpers, types, utils
+```
 
 🔧 Local Setup
 
+Clone the repository:
+
+```bash
+git clone https://github.com/nosrb26/runningnad.git
+cd runningnad
+```
+
+Install dependencies:
+
+```bash
+npm i
+# or pnpm i / yarn
+```
+
+Environment:
+
+Create .env.local (only what you actually use):
+
+```bash
+NEXT_PUBLIC_BASE_URL=http://localhost:3000
+FRAME_BASE_URL=http://localhost:3000        # where the frame endpoints live
+# If you use Neynar or another API, add its keys here, e.g.:
+# NEYNAR_API_KEY=...
+```
+
+Run:
+
+```bash
+npm run dev
+```
+
+App: http://localhost:3000/game
+Frame endpoint (example): http://localhost:3000/frames
+
+🚀 Deploy
+
+Vercel: connect the repo -> set the same env vars in the Vercel dashboard -> Deploy
+Make sure your Frame URL is publicly reachable over HTTPS.
+
+🕹️ How to Play
+
+Open the web app at /game or open the cast in Warpcast to load the Frame.
+Use on-screen or keyboard controls to dodge obstacles and survive as long as possible.
+At the end, click Share/Replay to post your score link back to Farcaster (or simply restart on web).
