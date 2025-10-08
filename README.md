@@ -98,6 +98,6 @@ The project uses the **RunningNadLeaderboard** smart contract to save scores for
 - `getBestScores()` – Get leaderboard best scores (returns addresses, best scores, times)
 - `getTotalScores()` – Get leaderboard total scores (returns addresses, total scores, games played)
 
+# 📜 License
 
-
-
+MIT
