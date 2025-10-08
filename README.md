@@ -85,3 +85,19 @@ Make sure your Frame URL is publicly reachable over HTTPS.
 Open the web app at /game or open the cast in Warpcast to load the Frame.
 Use on-screen or keyboard controls to dodge obstacles and survive as long as possible.
 At the end, click Share/Replay to post your score link back to Farcaster (or simply restart on web).
+
+---
+
+## 🔗 Smart Contract (soon !)
+
+The project uses the **RunningNadLeaderboard** smart contract to save scores for each player, and to track best and total scores in a scoreboard.
+
+### Contract Functions
+
+- `saveScore(uint256 score, uint256 time)` – Save player score and time
+- `getBestScores()` – Get leaderboard best scores (returns addresses, best scores, times)
+- `getTotalScores()` – Get leaderboard total scores (returns addresses, total scores, games played)
+
+
+
+
